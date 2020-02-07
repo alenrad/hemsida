@@ -71,53 +71,66 @@ footer{
   header{
     display: table;
     grid-column: 2/6;
-    grid-row: 1/7;
+    grid-row: 1/5;
   }
   section{
     grid-column: 2/6;
-    grid-row: 8/20;
+    grid-row: 7/20;
   }
   .plagg{
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
   }
   .nav{
     grid-column: 2/6;
-    grid-row: 7/8;
+    grid-row: 5/6;
     padding: 0;
   }
   div.bakgrund{
     grid-column: 2/6;
-    grid-row: 7/20;
+    grid-row: 5/20;
   }
   #topbar{
     display: inline;
   }
   .search-field{
     width: 130px;
+    vertical-align: bottom;
   }
   .search-btn{
     height: 55px;
     width: 55px;
+    vertical-align: bottom;
   }
   #rubrik{
     font-size: 30px;
     margin: 0;
   }
-  #popular, #manligt, #kvinnligt, #barsligt{
+  #nyheter, #manligt, #kvinnligt, #barsligt{
     font-size: 28px;
     margin-top: 0;
   }
   #kundkorg{
     height: 55px;
-    width: 35px;
+    width: 45px;
+    vertical-align: bottom;
+    margin: 0;
   }
   #sidebar a{
     font-size: 16px;
   }
   .container{
-    grid-template-columns: 100px repeat(4, 1fr);
+    grid-template-columns: 95px repeat(4, 1fr);
   }
-
+  footer{
+    padding: 10px;
+  }
+  .footer{
+    font-size: 16px;
+    float: none;
+  }
+  .categories{
+    width: 90%;
+  }
 }
 
 .categories {
