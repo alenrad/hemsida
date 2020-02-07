@@ -108,7 +108,7 @@ a:link{
   color: black;
 }
 
-#popular{
+#nyheter{
   font-size: 32px;
   text-align: center;
 }
@@ -146,7 +146,14 @@ li{
   color: white;
 }
 
-img{
+img.klader{
+  height: 240px;;
+  width: 220px;
+  border: 3px solid black;
+  transform: rotate(90deg);
+}
+
+.barn{
   height: 240px;;
   width: 220px;
   border: 3px solid black;
