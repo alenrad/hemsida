@@ -139,11 +139,11 @@ footer{
   margin: 0px;
   padding: 0px;
   display: inline-grid;
-  grid-template-rows: 1fr;
-  grid-gap: 3px;
-  height: 100%;
+  grid-gap: 5px;
+  height: 80px;
   width: 88%;
 }
+
 #man{
   grid-column: 2/3;
   grid-row: 1/1;
