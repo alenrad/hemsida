@@ -11,3 +11,7 @@ function closeNav() {
   console.log("I called this function!")
   document.getElementById("navnav").style.marginLeft = "0";
 }
+
+function myFunction() {
+  alert("Den här funktionen fungerar ej just nu");
+}
