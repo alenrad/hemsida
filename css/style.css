@@ -4,12 +4,12 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-section{
+section {
   overflow: auto;
   max-height: 200vh;
 }
 
-#rubrik{
+#rubrik {
   font-family: "Comic Sans MS", sans-serif;
   font-size: 40px;
   display: inline-block;
@@ -18,7 +18,7 @@ section{
 }
 
 #kundkorg {
-  width:70px;
+  width: 70px;
   height: 70px;
   margin-left: auto;
   margin-right: 5px;
@@ -28,16 +28,16 @@ section{
 #topbar {
   display: flex;
   align-items: center;
-  color:white;
+  color: white;
 }
 
-.nav{
-  justify-content:center;
+.nav {
+  justify-content: center;
   font-size: 30px;
   border-bottom: 1px solid black;
 }
 
-.openbtn{
+.openbtn {
   cursor: pointer;
   font-size: 200%;
 }
@@ -50,7 +50,7 @@ section{
   text-align: center;
 }
 
-.search-field{
+.search-field {
   height: 35px;
   width: 450px;
   font-size: 18px;
@@ -60,7 +60,7 @@ section{
   display: inline-block;
 }
 
-.search-btn{
+.search-btn {
   height: 55px;
   width: 55px;
   border: none;
@@ -69,104 +69,106 @@ section{
   display: inline-block;
 }
 
-.form{
+.form {
   display: inline-block;
 }
 
-.kategorier{
+.kategorier {
   border: 2px solid black;
   text-align: center;
   align-self: center;
   height: 40px;
 }
 
-#man{
+#man {
   border: 2px solid black;
   text-align: center;
   align-self: center;
   height: 40px;
 }
 
-#man:hover{
+#man:hover {
   font-weight: bold;
   transform: scale(1.1);
 }
 
-#kvinna{
+#kvinna {
   border: 2px solid black;
   text-align: center;
   align-self: center;
   height: 40px;
 }
 
-#kvinna:hover{
+#kvinna:hover {
   font-weight: bold;
   transform: scale(1.1);
 }
 
-#barn{
+#barn {
   border: 2px solid black;
   text-align: center;
   align-self: center;
   height: 40px;
 }
 
-#barn:hover{
+#barn:hover {
   font-weight: bold;
   transform: scale(1.1);
 }
 
-a:link{
+a:link {
   text-decoration: none;
   color: black;
 }
 
-#nyheter{
+#nyheter {
   font-size: 32px;
   text-align: center;
 }
 
-#manlig{
+#manlig {
   font-size: 32px;
   text-align: center;
 }
 
-#kvinnlig{
+#kvinnlig {
   font-size: 32px;
   text-align: center;
 }
 
-#barnsligt{
+#barnsligt {
   font-size: 32px;
   text-align: center;
 }
 
-.plagg{
+.plagg {
   justify-items: center;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.undertext{
+.undertext {
   text-align: center;
 }
 
-.footer{
+.footer {
   float: right;
   font-size: 20px;
   color: white;
 }
 
-img.klader{
-  height: 240px;;
+img.klader {
+  height: 240px;
+  ;
   width: 220px;
   border: 3px solid black;
 }
 
-.barn{
-  height: 240px;;
+.barn {
+  height: 240px;
+  ;
   width: 220px;
   border: 3px solid black;
 }
@@ -203,16 +205,11 @@ sidbar:checked {
   color: blue;
 }
 
-.sidorub{
+.sidorub {
   margin: 8px;
   font-style: italic;
   font-size: 14px;
   color: rgb(150, 147, 147);
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 }
 
 div.sidebar {
@@ -221,5 +218,5 @@ div.sidebar {
 
 a:visited {
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
