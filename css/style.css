@@ -73,9 +73,18 @@ section{
   display: inline-block;
 }
 
+.kategorier{
+  border: 2px solid black;
+  text-align: center;
+  align-self: center;
+  height: 40px;
+}
+
 #man{
   border: 2px solid black;
   text-align: center;
+  align-self: center;
+  height: 40px;
 }
 
 #man:hover{
@@ -86,6 +95,8 @@ section{
 #kvinna{
   border: 2px solid black;
   text-align: center;
+  align-self: center;
+  height: 40px;
 }
 
 #kvinna:hover{
@@ -96,6 +107,8 @@ section{
 #barn{
   border: 2px solid black;
   text-align: center;
+  align-self: center;
+  height: 40px;
 }
 
 #barn:hover{
@@ -147,6 +160,12 @@ li{
 }
 
 img.klader{
+  height: 240px;;
+  width: 220px;
+  border: 3px solid black;
+}
+
+.barn{
   height: 240px;;
   width: 220px;
   border: 3px solid black;
