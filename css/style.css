@@ -4,6 +4,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+/* Gör så att det finns en scroll i section som är max 200vh */
 section {
   overflow: auto;
   max-height: 200vh;
@@ -53,6 +54,7 @@ section {
   text-align: center;
 }
 
+/* Stylar sökrutan längst upp på sidan och bestämmer hur den ska visas */
 .search-field {
   height: 35px;
   width: 450px;
@@ -90,6 +92,7 @@ section {
   height: 40px;
 }
 
+/* Gör så att när man håller musen över så blir texten tjock och i större skala */
 #man:hover {
   font-weight: bold;
   transform: scale(1.1);
@@ -102,6 +105,7 @@ section {
   height: 40px;
 }
 
+/* Gör så att när man håller musen över så blir texten tjock och i större skala */
 #kvinna:hover {
   font-weight: bold;
   transform: scale(1.1);
@@ -114,6 +118,7 @@ section {
   height: 40px;
 }
 
+/* Gör så att när man håller musen över så blir texten tjock och i större skala */
 #barn:hover {
   font-weight: bold;
   transform: scale(1.1);
@@ -148,6 +153,7 @@ a:link {
   justify-items: center;
 }
 
+/* Gör så att listorna jag har, som är kläderna, inte är numrerade eller har prickar */
 li {
   list-style-type: none;
 }
@@ -164,14 +170,12 @@ li {
 
 img.klader {
   height: 240px;
-  ;
   width: 220px;
   border: 3px solid #000;
 }
 
 .barn {
   height: 240px;
-  ;
   width: 220px;
   border: 3px solid #000;
 }
@@ -183,11 +187,13 @@ img.klader {
   transition: 0.5s;
 }
 
+/* När man klickat på länken så blir den länken i blåaktig färg */
 #sidebar a.active {
   background-color: rgb(0, 139, 229);
   color: #FFF;
 }
 
+/* När länken inte är aktiv och man håller musen över så blir den gråakig */
 #sidebar a:hover:not(.active) {
   background-color: rgb(85, 85, 85);
   color: #FFF;
@@ -202,10 +208,6 @@ img.klader {
   color: #818181;
   display: block;
   transition: 0.3s;
-}
-
-sidbar:checked {
-  color: #0000FF;
 }
 
 .sidorub {
@@ -224,6 +226,7 @@ a:visited {
   color: #000;
 }
 
+/* Stylar knappen längst ner vid klädesplaggen */
 #myBtn {
   border: none;
   background-color: rgb(255, 255, 255);
