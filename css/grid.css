@@ -1,3 +1,4 @@
+/* Bestämmer hur stora kolumnerna får vara samt raderna och att de ska upprepas */
 .container {
   display: grid;
   grid-template-columns: 200px repeat(4, 1fr);
@@ -8,6 +9,7 @@
   margin: 0px;
 }
 
+/* Här ger jag klädesplaggen också bestämt på hur stora de ska var och att de ska repeteras. Samt hur stort mellanrum mellan varje */
 .plagg {
   display: inline-grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -53,6 +55,7 @@ section {
   grid-row: 7/20;
 }
 
+/* Här lägger jag en bakgrundsbild bakom själva section och navigation */
 .bakgrund {
   grid-column: 2/6;
   grid-row: 4/20;
@@ -74,15 +77,6 @@ footer {
 
   .sidebar a {
     font-size: 18px;
-  }
-}
-@media only screen and (max-width: 990px) {
-  #rubrik {
-    font-size: 30px;
-  }
-
-  .search-field {
-    width: 320px;
   }
 }
 
