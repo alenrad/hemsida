@@ -223,3 +223,16 @@ a:visited {
   text-decoration: none;
   color: #000;
 }
+
+#myBtn {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  float: right;
+}
+
