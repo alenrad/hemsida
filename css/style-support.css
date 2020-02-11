@@ -1,3 +1,4 @@
+/* Lagt en bakgrundsbild på hela bodyn som sträcks ut istället för att uprepas */
 .bakgrund {
   width: 100%;
   height: 780px;
@@ -28,6 +29,7 @@ h2 {
   justify-content: center;
 }
 
+/* Stylar vänster column och sätter den som statisk för att inte den ska komma över eller under den andra */
 .left {
   width: 400px;
   height: 420px;
@@ -40,6 +42,7 @@ h2 {
   background-clip: content-box;
 }
 
+/* Stylar höger kolumn och sätter den som statisk för att inte den ska komma över eller under den andra */
 .right {
   width: 400px;
   height: 420px;
@@ -52,6 +55,7 @@ h2 {
   background-clip: content-box;
 }
 
+/* Säger åt att innehållet i höger kolumn ska vara flex och staplas på varandra i columner */
 .rightinne {
   display: flex;
   flex-direction: column;
@@ -85,6 +89,7 @@ h2 {
   float: left;
 }
 
+/* Ändrar storlek på det mesta för att få plats vid mindre skärmar */
 @media screen and (max-width: 667px) {
   .bakgrund {
     width: 100%;
